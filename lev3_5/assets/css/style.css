@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "athene";
+    src: url("../font/Athene.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* --------------------
+Assets
+-----------------------
+
+Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: "athene", sans-serif;
+
+
+Texte:
+SC20"
+TEMPORARY FOLIO
+TEMPORARY FOLIO  
+©
+DESIGNER & DEVELOPER
+.01
+RELEASE
+FIRST OF ALL, IT IS AMAZING HAVING YOU HERE, WELCOME! I'M A PERSON WHO'S COMPLETELY IN LOVE WITH DESIGN, I AM PASSIONATE ABOUT TECHNOLOGY AND INTERACTIVITY, THE TWO FIELDS WHICH I'D LOVE TO STAY MORE INVOLVED IN AND KEEP ABOUT. CONTINUE TO GROW AND IMPROVE EVERY DAY!
+PRINCIPLES & VALUES
+01.	
+Integrity.
+Always working with accuracy and transparency.
+02.
+Understanding.
+Well-made website require effort and comprehension.
+03.
+Performance.
+Focus is the key, every minute is important.
+.02
+WORKS
+EVERY WEBSITE IS MEANINGFUL AND REQUIRE A LOT OF EFFORT TO REACH THE GOALS, REAGARDLESS OF WHICH GOALS YOU ARE LOOKING TO MEET, I CAN WORK WITH YOU TO REACH THEM. BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN AND SEE MY SKILLS SET. I HOPE YOU ENJOY THEM:
+RODRIGO MARCONATTO
+KÄTHE KOLLWITZ
+VICTOR FOLIO 2019"
+BORED OF AUTHORITY
+.03
+CONTACT
+NOW THAT YOU ALREADY KNOW ME, IT IS TIME TO START TO BUILD SOMETHING AMAZING TOGETHER.
+Email
+Dribbble
+Behance
+Github
+
+
+
+*/
+
+
+
+h1 {
+    font-family: "athene", sans-serif;
+    color: #042a5a;
+    font-size: 13rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0 10vw 0 10vw;
+    border-bottom: #042a5a solid 1px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: "athene", sans-serif;
+    color: #042a5a;
+    font-size: 13rem;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: "athene", sans-serif;
+    color: #042a5a;
+    font-size: 6rem;
+    font-weight: 200;
+}
+
+
+
+/* ----------------------
+Header Styling
+------------------------- */
+
+header {
+    background-color: #efe8d7;
+    text-align: center;
+    color: #042a5a;
+}
+
+/* StickyBar */
+
+#stickyBar {
+    background-color: #efe8d7;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    padding: 5px 80px 5px 80px;
+    width: 100%;
+    border-bottom: 1px solid #042a5a;
+}
+
+#stickyBar p:first-child {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto 0 0;
+    text-align: left;
+}
+
+#stickyBar p:last-child {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 80%;
+    text-align: right;
+}
+
+#headline {
+    padding: 50px;
+}
+
+#headline img {
+    padding: 30px;
+}
+
+#headline p {
+    font-family: "athene", sans-serif;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#headline p span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#release {
+    color: #000;
+    background-color: #f4c4c4;
+}
+
+#release h2 {
+    padding: 100px 0 70px 100px;
+}
+
+#release h3 {
+    text-align: left;
+    line-height: 15rem;
+    color: #000;
+}
+
+.releaseText {
+    width: 35%;
+    padding: 0 auto 0 auto;
+    margin-left: 40%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+/* STYLING CONTAINER - ARTICLE */
+
+.table {
+    width: 42%;
+    margin: 5rem 15rem 10rem auto;
+    text-align: right;
+}
+
+.table article {
+    border-top: solid 1px #282B29;
+    padding: 3rem 0;
+}
+
+.table article:nth-of-type(3) {
+    border-bottom: solid 1px #282B29;
+}
+
+.table article p {
+    display: inline-block;
+}
+
+.table article p:nth-of-type(1) {
+    font-size: 1.4rem;
+    width: 10%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table article p:nth-of-type(2) {
+    font-size: 2.1rem;
+    width: 69%;
+    vertical-align: middle;
+}
+
+.table article p:nth-of-type(3) {
+    font-size: 1.4rem;
+    width: 20%;
+    vertical-align: middle;
+}
+
+#works {
+    color: #7d2222;
+    background-color: #deb873;
+}
+
+#works h2 {
+    text-align: right;
+    padding: 100px 100px 70px 0;
+}
+
+#works h3 {
+    text-align: right;
+    color: #7d2222;
+}
+
+#works p {
+    width: 35%;
+    padding: 0 auto 0 auto;
+    margin: 0 0 100px 10%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+/* #works div {
+    float: left;
+} */
+
+#works h4 {
+    color: #7d2222;
+    margin: 0 0 0 10%;
+}
+
+#rodrigo {
+    background-image: url("../img/bg-marconatto-1.jpg");
+    background-repeat: no-repeat;
+    background-position: 60%;
+    padding: 1vw 1vw 10vw 0;
+}
+
+#kollwitz {}
