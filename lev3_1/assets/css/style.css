@@ -23,7 +23,6 @@ html {
 body {
     background: linear-gradient(27deg, #373737, #070707, #373737);
     height: 100vh;
-    /* position: relative; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -136,34 +135,31 @@ main {
 MAIN-STYLE
 ------------------------- */
 footer {
-    position: relative;
+    position: absolute;
     bottom: 10px;
     left: 100px;
 }
 
 footer section {
-    position: relative;
-    bottom: 10px;
-}
-
-
-/* footer {
-    position: relative;
-    top: 0px;
-    left: 70px;
-} */
-
-/* 
-footer img {
-    width: 25%;
-    padding: 20px;
-}
-
-footer div {
-    display: inline-block;
+    width: 90vw;
+    display: block;
     position: absolute;
 }
 
+footer section div {
+    display: inline-block;
+}
+
+footer img {
+    display: inline-block;
+    width: 25%;
+    padding: 3% 7%;
+}
+
 footer p {
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    right: 5%;
     color: #fff;
-} */
+}
